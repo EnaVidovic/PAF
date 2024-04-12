@@ -3,11 +3,10 @@ import matplotlib.pyplot as plt
 
 from calculus import derivacija_u_tocki, derivacija_na_intervalu
 
-#Trigonometrijska funkcija: sin(x)
+
 def trigonometrijska_funkcija(x):
     return np.sin(x)
 
-#Kubna funkcija: f(x) = x^3
 def kubna_funkcija(x):
     return x ** 3
 
